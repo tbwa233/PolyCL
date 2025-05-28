@@ -37,3 +37,6 @@ Segmentation is one of the most important tasks in the medical imaging pipeline 
 <br>
 
 PolyCL follows a two-stage process: (1) self-supervised pre-training using contrastive learning with one of three example selection strategies (PolyCL-S, PolyCL-O, or PolyCL-M), where the encoder learns discriminative, task-relevant features from unlabeled data; and (2) supervised fine-tuning, where a decoder is added and the full model is trained on a small set of labeled images using Dice loss to predict segmentation masks.
+
+## Code
+The code has been written in Python using the PyTorch framework. Training requries a GPU.
