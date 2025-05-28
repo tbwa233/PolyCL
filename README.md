@@ -31,7 +31,7 @@ Segmentation is one of the most important tasks in the medical imaging pipeline 
 <br>
 
 <div align="center">
-  <img src="https://github.com/tbwa233/PolyCL/blob/main/images/polyclarchitecture.png?raw=true" alt="Figure" style="width:67%;"/>
+  <img src="https://github.com/tbwa233/PolyCL/blob/main/images/polyclarchitecture.png?raw=true" alt="Figure" style="width:100%;"/>
 </div>
 
 <br>
