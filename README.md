@@ -12,5 +12,5 @@ Segmentation is one of the most important tasks in the medical imaging pipeline 
 
 ## Example Selection Strategies
 <div align="center">
-  <img src="https://github.com/tbwa233/PolyCL/blob/main/images/polyclteaser.png?raw=true" alt="Figure" width="400"/>
+  <img src="https://github.com/tbwa233/PolyCL/blob/main/images/polyclteaser.png?raw=true" alt="Figure" style="width:75%;"/>
 </div>
