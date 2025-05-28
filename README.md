@@ -16,6 +16,7 @@ Segmentation is one of the most important tasks in the medical imaging pipeline 
   <img src="https://github.com/tbwa233/PolyCL/blob/main/images/polyclteaser.png?raw=true" alt="Figure" style="width:67%;"/>
 </div>
 
+
 <b>PolyCL-O</b> requires the knowledge of which slices contain the target organ in the dataset. If the anchor slice contains the target organ, its positive example will also contain the target organ, while its negative example will not. The opposite is true for anchor slices that do not contain the target organ. By choosing examples in this manner, the encoder learns how to represent the target structure before seeing fully annotated data, improving its performance in the actual downstream task. In addition, random selection over all CT scans in the dataset teaches the model interscan invariance.
 
 
