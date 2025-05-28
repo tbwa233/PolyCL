@@ -40,3 +40,18 @@ PolyCL follows a two-stage process: (1) self-supervised pre-training using contr
 
 ## Code
 The code has been written in Python using the PyTorch framework. Training requries a GPU.
+
+## Citation
+If you find this repo or the paper useful, please cite: 
+
+**ISBI Paper**
+```
+@inproceedings{moseley2024polycl,
+  title={Polycl: Context-Aware Contrastive Learning for Image Segmentation},
+  author={Moseley, Aaron and Imran, Abdullah Al Zubaer},
+  booktitle={2024 IEEE International Symposium on Biomedical Imaging (ISBI)},
+  pages={1--4},
+  year={2024},
+  organization={IEEE}
+}
+```
