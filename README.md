@@ -25,3 +25,15 @@ Segmentation is one of the most important tasks in the medical imaging pipeline 
 <b>PolyCL-S</b>, on the other hand, requires no additional information. For each slice in the dataset, a positive example is selected randomly from the same scan, and a negative example is selected from any scan different from the anchor. This process teaches the encoder intrascan relationships and enables to understanding of the images even without knowledge of the target structure.
 
 <b>PolyCL-M</b>, combines the organ-based example selection of PolyCL-O with the scan-based approach of PolyCL-S. Similar to PolyCL-O, if an anchor contains the target organ, its positive example will also contain said organ. The opposite is also true, where if an anchor slice does not contain the target organ, so too will its positive example. However, in PolyCL-M, there is an additional criterion in that a positive example must also come from the same scan as the anchor, regardless of the organ information, resembling PolyCL-S. This example selection process teaches the encoder both inter-scan invariance and intra-scan coherence, while also helping the model to better discriminate between similar but contextually different examples.
+
+## Model
+
+<br>
+
+<div align="center">
+  <img src="https://github.com/tbwa233/PolyCL/blob/main/images/polyclarchitecture.png?raw=true" alt="Figure" style="width:67%;"/>
+</div>
+
+<br>
+
+PolyCL follows a two-stage process: (1) self-supervised pre-training using contrastive learning with one of three example selection strategies (PolyCL-S, PolyCL-O, or PolyCL-M), where the encoder learns discriminative, task-relevant features from unlabeled data; and (2) supervised fine-tuning, where a decoder is added and the full model is trained on a small set of labeled images using Dice loss to predict segmentation masks.
