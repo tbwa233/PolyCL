@@ -1,0 +1,21 @@
+#Standard
+batchSize=1
+learnRate=0.0001
+epochs=100
+#
+#> 0 if starting from checkpoint
+startEpoch=0
+#
+#Learn Rate Scheduling
+cosineAnnealing=1
+cosineRestartEpochs=10
+#
+#Misc
+epochsToSave=10
+useWandB=0
+#
+#Progressive Training Parameters
+startDim=32
+epochsToDouble=25
+#0 for non progressive, 1 for progressive, 2 for reverse progressive
+progressive=0
