@@ -55,3 +55,13 @@ If you find this repo or the paper useful, please cite:
   organization={IEEE}
 }
 ```
+
+**arXiv Paper**
+```
+@article{ward2025domain,
+  title={Domain and Task-Focused Example Selection for Data-Efficient Contrastive Medical Image Segmentation},
+  author={Ward, Tyler and Moseley, Aaron and Imran, Abdullah-Al-Zubaer},
+  journal={arXiv preprint arXiv:2505.19208},
+  year={2025}
+}
+```
